@@ -9,30 +9,29 @@ The webpage will be centered on the character. “A” and “D” moves them le
 The program’s collision mechanics work by comparing the player’s dimensions with the div elements in the HTML. When the webpage loads, the program uses getBoundingClientRect() method to find the position and dimensions of relevant HTML elements.
 
 ## Files
-gameobject.js :  Manages game objects and platform elements from the HTML, including positions and dimensions.
-movement.js : Player movement. A and D move left right, space jumps. Or touchscreen, top jumps and right/left to move left and right.
-player.js : Player character’s appearance and position.
-camera.js : Controls the camera and follows player progress through the game.
-
-Home.html : Main page of Storio.
-Tutorial.html : Introduces player to soft platforming and displays it’s possible to change html platforms.
-AliceInWonderland.html : Contains the first chapter 
+- gameobject.js :  Manages game objects and platform elements from the HTML, including positions and dimensions.
+- movement.js : Player movement. A and D move left right, space jumps. Or touchscreen, top jumps and right/left to move left and right.
+- player.js : Player character’s appearance and position.
+- camera.js : Controls the camera and follows player progress through the game.
+- Home.html : Main page of Storio.
+- Tutorial.html : Introduces player to soft platforming and displays it’s possible to change html platforms.
+- AliceInWonderland.html : Contains first chapter of Alice in Wonderland Platformer
 
 ## Current Features
-Player movement with both touch screen/mouse and keyboard. 
-Vertical based website, both popular in platforming and easily accessible by mobile users.
-Individual div’s styled with “platform” are able to interact with the player and are text based.
-Camera movement that follows the player through the level.
-Stories arranged from bottom of the page for upwards platforming. 
+- Player movement with both touch screen/mouse and keyboard. 
+- Vertical based website, both popular in platforming and easily accessible by mobile users.
+- Individual div’s styled with “platform” are able to interact with the player and are text based.
+- Camera movement that follows the player through the level.
+- Stories arranged from bottom of the page for upwards platforming. 
 
-Goals
-Checkpoints so the user doesn’t accidentally fall to the bottom and have to reread the whole story. Perhaps using the nav feature of HTML. 
-Passing a certain platform will change the background to an illustration of what’s happening in the story. For example, passing the text of Alice falling down the rabbit-hole would trigger the background to turn that image.
-Changing the jump height depending on mobile vs desktop to make platforming possible for both systems. 
-Downward button activates “click” to click on links.
+### Goals
+- Checkpoints so the user doesn’t accidentally fall to the bottom and have to reread the whole story. Perhaps using the nav feature of HTML. 
+- Passing a certain platform will change the background to an illustration of what’s happening in the story. For example, passing the text of Alice falling down the rabbit-hole would trigger the background to turn that image.
+- Changing the jump height depending on mobile vs desktop to make platforming possible for both systems. 
+- Downward button activates “click” to click on links.
 
-Bugs
-Player falling through platform when screen is resized.
+### Bugs
+- Player falling through platform when screen is resized.
 
 # How to Run Vite + React
 
