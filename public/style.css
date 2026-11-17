@@ -35,7 +35,8 @@ p{
     position: relative;
     flex-direction: column;
     align-items: center;
-
+    /* LEAVING THIS OUT WORKS REALLY WELL FOR ALICE.HTML BUT LENGTHENS THE PLATFORMS OF ELSE... IDK WHY */
+    /* width: 200px; */
     box-sizing: border-box;
     max-width: 80%;
 
